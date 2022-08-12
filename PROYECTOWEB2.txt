@@ -1,0 +1,35 @@
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git init
+Initialized empty Git repository in C:/Users/PERSONAL/Desktop/ADSO/PROYECTOWEB2/.git/
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git add index.html
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git config --global user.name "lcarvajalsa"
+lcarvajalsa
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git config --global user.email "lcarvajalsa@gmail.com"
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git config --global user.email
+lcarvajalsa@gmail.com
+
+No commits yet
+
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git add .
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git commit -m "se inicio proyecto web con git"
+[master (root-commit) 92066e8] se inicio proyecto web con git
+ 1 file changed, 15 insertions(+)
+ create mode 100644 index.html
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> git log
+commit 92066e8e34c9ff8bc5fab36b4506a24cd550210a (HEAD -> master)
+Author: lcarvajalsa <lcarvajalsa@gmail.com>
+Date:   Thu Aug 11 19:01:15 2022 -0500
+
+    se inicio proyecto web con git
+PS C:\Users\PERSONAL\Desktop\ADSO\PROYECTOWEB2> 
